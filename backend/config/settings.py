@@ -390,7 +390,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # CUSTOM USER MODEL (will configure later)
 # =============================================================================
 
-# AUTH_USER_MODEL = 'users.User'  # Uncomment when User model is created
+AUTH_USER_MODEL = 'users.User'  # Custom user model
 
 # =============================================================================
 # HIPAA COMPLIANCE SETTINGS

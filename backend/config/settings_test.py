@@ -40,3 +40,6 @@ FIELD_ENCRYPTION_KEY = 'test-key-32-characters-long!!!'
 DEBUG_TOOLBAR_CONFIG = {
     'SHOW_TOOLBAR_CALLBACK': lambda request: False,
 }
+
+# Use custom user model
+AUTH_USER_MODEL = 'users.User'
