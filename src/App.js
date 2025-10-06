@@ -8,14 +8,11 @@ import FIM from './assessments/FIM';
 function App() {
   const [currentView, setCurrentView] = useState('dashboard');
   const [selectedPatient, setSelectedPatient] = useState(null);
-  const [selectedAssessment, setSelectedAssessment] = useState(null);
 
   const navigateTo = (view, data = null) => {
     setCurrentView(view);
     if (view === 'patient-profile') {
       setSelectedPatient(data);
-    } else if (view === 'katz-adl' || view === 'barthel' || view === 'fim') {
-      setSelectedAssessment(view);
     }
   };
 

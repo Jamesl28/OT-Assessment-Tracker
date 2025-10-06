@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Activity, ArrowLeft, ArrowRight, Save, CheckCircle, User, Calendar } from 'lucide-react';
+import { ArrowLeft, ArrowRight, CheckCircle } from 'lucide-react';
 
 const KatzADL = ({ onBack }) => {
   const [currentStep, setCurrentStep] = useState(0);
